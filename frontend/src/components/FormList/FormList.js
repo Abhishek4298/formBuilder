@@ -5,6 +5,8 @@ function FormList() {
 	const { formName, questions } = useSelector((state) => {
 		return state
 	})
+	console.log(`===> :: questions`, questions)
+	console.log(`===> :: formName`, formName)
 	return (
 		<div>
 			<h2>{formName}</h2>
