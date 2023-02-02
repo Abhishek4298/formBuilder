@@ -1,0 +1,4 @@
+export const ADD_QUESTION = "ADD_QUESTION";
+export const SAVE_FORM = "SAVE_FORM";
+export const SET_FORM_NAME = "SET_FORM_NAME";
+export const ADD_QUESTION_SUCCESS = "ADD_QUESTION_SUCCESS";
