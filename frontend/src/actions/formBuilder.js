@@ -6,8 +6,3 @@ export const addQuestion = (question) => {
 		payload: question,
 	}
 }
-
-export const addQuestionSuccess = (question) => ({
-	type: ADD_QUESTION_SUCCESS,
-	question,
-})

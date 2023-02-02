@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addQuestion } from "../../actions/formBuilder";
+import './Form.scss';
 
 const Form = () => {
   const [formName, setFormName] = useState("");

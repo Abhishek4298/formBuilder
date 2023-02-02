@@ -1,0 +1,38 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  .form-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .form-name {
+    width: 60%;
+  }
+
+  .add-question-button {
+    width: 40%;
+  }
+
+  .question-list {
+    margin-top: 20px;
+
+    .question-item {
+      margin-bottom: 20px;
+    }
+  }
+
+  .save-form-button {
+    margin-top: 20px;
+  }
+}

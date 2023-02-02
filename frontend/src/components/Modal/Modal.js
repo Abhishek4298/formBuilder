@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Modal.scss'
 
 const Modal = ({ onClose, onSubmit }) => {
 	const [question, setQuestion] = useState('')
@@ -18,6 +19,7 @@ const Modal = ({ onClose, onSubmit }) => {
 	}
 
 	const handleSubmit = () => {
+		console.log('SUBMITTT')
 		onSubmit({ question, answerType, choices })
 	}
 
